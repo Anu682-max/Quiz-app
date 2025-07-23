@@ -1,0 +1,159 @@
+/* Ерөнхий хэв маяг */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f6f2;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Контейнер */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fffdfa;
+  border-radius: 14px;
+  padding: 28px 20px 20px 20px;
+  box-shadow: 0 6px 24px 0 rgba(180, 140, 90, 0.10);
+}
+
+/* Гарчиг */
+h1, h2 {
+  text-align: center;
+  color: #8d5524;
+  font-family: 'Noto Sans Mongolian', Arial, sans-serif;
+}
+
+/* Асуулт хэсэг */
+.question {
+  margin-top: 24px;
+  font-size: 19px;
+  color: #5c4326;
+}
+
+/* Answer buttons */
+.answer-btn {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+  padding: 15px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 10px;
+  background: #f7ecd7;
+  color: #7c4a03;
+  transition: background 0.2s, transform 0.1s, box-shadow 0.2s, color 0.2s;
+  cursor: pointer;
+  box-shadow: 0 1px 6px #e6cfa1;
+  font-weight: bold;
+}
+.answer-btn:hover {
+  background: #ffefcf;
+  transform: scale(1.03) translateY(-2px);
+  box-shadow: 0 4px 16px #e6cfa1;
+  color: #5c4326;
+}
+
+/* Үр дүнгийн хэсэг */
+.result {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 32px;
+  color: #6d4c1b;
+}
+
+/* Facebook share болон буяны холбоос */
+.share-buttons {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.share-buttons a, .share-buttons button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 16px;
+  background: #4267B2;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Buy Me a Coffee button */
+.coffee-btn,
+.coffee a {
+  display: inline-block;
+  background: #ffe5b4;
+  color: #7c4a03;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 8px #e6cfa1;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+}
+.coffee-btn:hover,
+.coffee a:hover {
+  background: #ffefcf;
+  box-shadow: 0 4px 16px #e6cfa1;
+  transform: translateY(-2px) scale(1.04);
+  color: #5c4326;
+}
+
+/* Facebook share button */
+.fb-share-btn {
+  display: inline-flex;
+  align-items: center;
+  background: #1877f2;
+  color: #fff !important;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  gap: 8px;
+  box-shadow: 0 2px 8px #0002;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+  margin-top: 16px;
+}
+.fb-share-btn:hover {
+  background: #145db2;
+  box-shadow: 0 4px 16px #1877f288;
+  transform: translateY(-2px) scale(1.04);
+  color: #fff;
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Result image */
+.result-img {
+  width: 80px;
+  margin-bottom: 16px;
+}
+
+/* Coffee text */
+.coffee-text {
+  text-align: center;
+  color: #a67c52;
+  font-size: 15px;
+  margin-top: 10px;
+}
+/* Надтай холбогдох хэсэг */
+.contact-me {
+  margin-top: 28px;
+  text-align: center;
+  color: #7c4a03;
+  font-size: 15px;
+}
+.contact-me a {
+  color: #8d5524;
+  text-decoration: underline;
+}
+.contact-me a:hover {
+  color: #c97a28;
+}
